@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="mailto:balajmir20@gmail.com">balajmir20@gmail.com</a> ·
-  <a href="https://linkedin.com/in/balaj-mir">LinkedIn</a> ·
+  <a href="https://linkedin.com/in/balaj-mir">linkedin.com/in/balaj-mir</a> ·
   +92 330-5567553
 </p>
 
@@ -43,7 +43,9 @@ A few other things worth knowing: I placed in the top 4% of over 2,600 participa
 
 **ML & AI Intern, EziTech Institute** — Rawalpindi, Aug to Sep 2025
 
-Spent six weeks building an end-to-end Scikit-learn preprocessing pipeline and EDA dashboards for the Titanic dataset using Pandas, NumPy, Matplotlib and Seaborn, then trained a Linear Regression model on the California Housing dataset and benchmarked it with RMSE, MAE and R². Capped it off with a capstone project: a RAG-based cold email generator built with Streamlit, LangChain and ChromaDB.
+* Built an end-to-end Scikit-learn preprocessing pipeline and EDA dashboards for the Titanic dataset using Pandas, NumPy, Matplotlib and Seaborn
+* Trained a Linear Regression model on the California Housing dataset and benchmarked it with RMSE, MAE and R²
+* Delivered a capstone project: a RAG-based cold email generator built with Streamlit, LangChain and ChromaDB
 
 ---
 
@@ -51,7 +53,9 @@ Spent six weeks building an end-to-end Scikit-learn preprocessing pipeline and E
 
 **[Shirtify](https://github.com/balaj-mir/shirtify-ecommerce)** — Custom Design & Virtual Try-On E-Commerce Platform, CUST FYP (2025–26)
 
-Built an interactive T-shirt customization studio in Fabric.js with live text and graphic placement and a real-time preview before checkout. The core of it is a hybrid virtual try-on pipeline that combines IDM-VTON garment warping with MediaPipe pose estimation and OpenCV preprocessing. On top of that sits a collaborative-filtering recommendation engine and Prophet/ARIMA demand forecasting, both surfaced through a real-time admin dashboard.
+* Built an interactive T-shirt customization studio in Fabric.js with live text and graphic placement and a real-time preview before checkout
+* Engineered a hybrid virtual try-on pipeline combining IDM-VTON garment warping with MediaPipe pose estimation and OpenCV preprocessing
+* Added a collaborative-filtering recommendation engine and Prophet/ARIMA demand forecasting, surfaced through a real-time admin dashboard
 
 **Stack:** React.js, Node.js/Express, MongoDB, FastAPI, Fabric.js, IDM-VTON, MediaPipe, TensorFlow, Prophet
 
@@ -61,44 +65,58 @@ Built an interactive T-shirt customization studio in Fabric.js with live text an
 
 **[BidEngine](https://github.com/balaj-mir/BidEngine)** — Autonomous Proposal & RFP Win Engine, built at CUST Hackathon 2026
 
-A 5-agent CrewAI pipeline that automates the whole RFP response workflow: NER-based extraction, compliance scoring, capability matching, drafting, and win-probability prediction, in that order. It uses a hybrid RAG capability matcher alongside a Scikit-learn win-probability model trained on 120 historical bid records.
+* 5-agent CrewAI pipeline automating the RFP response workflow end to end: extraction, compliance scoring, capability matching, drafting, and win-probability prediction
+* Hybrid RAG capability matcher paired with a Scikit-learn win-probability model trained on 120 historical bid records
+
 **Stack:** Next.js 15, React 19, TypeScript, FastAPI, CrewAI, LangChain, Scikit-learn, Docker
 
 **[FormatGuard](https://github.com/balaj-mir/FormateGuide)** — Academic Formatting Compliance Platform
 
-Does a deep XML-level inspection of `.docx` files and checks structure and typography against institutional rulesets like APA, IEEE and HEC Pakistan. Where it gets interesting is the tracked-changes auto-correction engine, which rewrites the XML formatting in place, running on an async Celery/Redis pipeline with multi-tier role-based access.
+* Deep XML-level inspection of `.docx` files, validated against institutional rulesets like APA, IEEE and HEC Pakistan
+* Tracked-changes auto-correction engine that rewrites XML formatting in place, running on an async Celery/Redis pipeline with multi-tier role-based access
+
 **Stack:** Next.js 16, FastAPI (Python 3.12), PostgreSQL, Celery, Redis, Docker, Supabase
 
 **[EventHive](https://github.com/balaj-mir/EventHive)** — Enterprise Event Booking & Ticketing Platform
 
-A real-time booking and check-in system that uses atomic MongoDB transactions so overselling simply can't happen, even under concurrent checkout load. Tickets are tamper-proof JWT-signed QR codes with idempotent check-in locking, and payments reconcile through Stripe webhooks.
+* Real-time booking and check-in system using atomic MongoDB transactions so overselling can't happen, even under concurrent checkout load
+* Tamper-proof JWT-signed QR ticketing with idempotent check-in locking and Stripe webhook payment reconciliation
+
 **Stack:** Next.js 14, TypeScript, Node.js/Express, MongoDB, Stripe, JWT, html5-qrcode
 
 **[TasqOn](https://github.com/balaj-mir/TasqOn)** — Team & Workload Management Platform
 
-Built for organizations that need to monitor team performance in real time, with modules for evidence tracking and anomaly detection, catching things like fake progress reports, speed anomalies, and idle team members.
+* Built for organizations that need to monitor team performance in real time
+* Modules for evidence tracking and anomaly detection, catching fake progress reports, speed anomalies, and idle team members
+
 **Stack:** Next.js 19, Tailwind v4, shadcn/Radix UI, Framer Motion, Recharts, Node.js/Express, Prisma, SQLite, Socket.io, JWT
 
 **[Pharma-chain-tracker](https://github.com/balaj-mir/Pharma-chain-tracker)** — Blockchain Supply Chain Authenticity Tracker
 
-An Ethereum DApp that lets you scan a QR code to detect counterfeit pharmaceuticals along the supply chain.
+* Ethereum DApp that lets you scan a QR code to detect counterfeit pharmaceuticals along the supply chain
+
 **Stack:** Solidity, React, Python/Flask, Hardhat
 
 **EduTrack Lite** — Course Platform with an AI At-Risk-Student Classifier
 
-Uses a Logistic Regression model trained on the OULAD dataset to flag students who might need extra support before they fall behind.
+* Logistic Regression model trained on the OULAD dataset to flag students who might need extra support before they fall behind
+
 **Stack:** Next.js, TypeScript, Tailwind, Node/Express, MongoDB, FastAPI, Scikit-learn
 
 **ChatSphere** — Real-Time Community Chat App
 
-A Discord/Slack-style chat app with room-scoped broadcasting, multi-device presence tracking, and cursor-based pagination for message history.
+* Discord/Slack-style chat app with room-scoped broadcasting, multi-device presence tracking, and cursor-based pagination for message history
+
 **Stack:** Next.js, Node.js, Socket.IO, MongoDB, TypeScript
 
 ---
 
 ### 🏆 Achievements & Certifications
 
-Placed in the top 4% of 2,600+ national participants in APPEC, the All Pakistan Prompt Engineering Competition. Built BidEngine at CUST Hackathon 2026. Holds an ML & AI Internship certification from EziTech Institute and a Team Management certification from CUST Hackathon 2025.
+* Placed in the top 4% of 2,600+ national participants in APPEC, the All Pakistan Prompt Engineering Competition
+* Built BidEngine (AI Bid & Proposal Response Engine) at CUST Hackathon 2026
+* ML & AI Internship certification — EziTech Institute
+* Team Management certification — CUST Hackathon 2025
 
 ---
 
@@ -112,5 +130,5 @@ Placed in the top 4% of 2,600+ national participants in APPEC, the All Pakistan 
 
 ### 🔗 Connect
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/balaj-mir)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:balajmir20@gmail.com)
+[![Email](https://img.shields.io/badge/Email-balajmir20%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:balajmir20@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-balaj--mir-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/balaj-mir)
