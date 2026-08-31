@@ -120,14 +120,6 @@ A few other things worth knowing: I placed in the top 4% of over 2,600 participa
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=balaj-mir&show_icons=true&theme=default" alt="Balaj's GitHub stats" />
-</p>
-
----
-
 ### 🔗 Connect
 
 [![Email](https://img.shields.io/badge/Email-balajmir20%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:balajmir20@gmail.com)
