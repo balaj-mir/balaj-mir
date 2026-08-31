@@ -23,19 +23,15 @@ A few other things worth knowing: I placed in the top 4% of over 2,600 participa
 
 ### 🧰 Tech Stack
 
-**Languages** — ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)
-
-**Frontend** — ![Next.js](https://img.shields.io/badge/-Next.js-000?logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)
-
-**Backend & APIs** — ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white) REST APIs, Celery/Redis
-
-**Data & Databases** — ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white) Supabase
-
-**AI / ML** — ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white) Keras, Prophet/ARIMA, LangChain, RAG, CrewAI, Pandas/NumPy, Streamlit, ChromaDB
-
-**HCI & Computer Graphics** — Fabric.js, MediaPipe, OpenCV, UI/UX prototyping, real-time preview systems
-
-**Blockchain & Tooling** — ![Solidity](https://img.shields.io/badge/-Solidity-363636?logo=solidity&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) JWT, Stripe, Socket.IO, Hardhat
+| Category | Technologies |
+|---|---|
+| **Languages** | Python, TypeScript, JavaScript, C++, PHP |
+| **Frontend** | Next.js, React, Tailwind CSS |
+| **Backend & APIs** | Node.js, Express, FastAPI, REST APIs, Celery/Redis |
+| **Data & Databases** | MongoDB, PostgreSQL, MySQL, Supabase |
+| **AI / ML** | Scikit-learn, TensorFlow, Keras, Prophet/ARIMA, LangChain, RAG, CrewAI, Pandas/NumPy, Streamlit, ChromaDB |
+| **HCI & Computer Graphics** | Fabric.js, MediaPipe, OpenCV, UI/UX prototyping, real-time preview systems |
+| **Blockchain & Tooling** | Solidity, Hardhat, Docker, Git, JWT, Stripe, Socket.IO |
 
 ---
 
@@ -63,51 +59,15 @@ A few other things worth knowing: I placed in the top 4% of over 2,600 participa
 
 ### 🔭 Key Projects
 
-**[BidEngine](https://github.com/balaj-mir/BidEngine)** — Autonomous Proposal & RFP Win Engine, built at CUST Hackathon 2026
-
-* 5-agent CrewAI pipeline automating the RFP response workflow end to end: extraction, compliance scoring, capability matching, drafting, and win-probability prediction
-* Hybrid RAG capability matcher paired with a Scikit-learn win-probability model trained on 120 historical bid records
-
-**Stack:** Next.js 15, React 19, TypeScript, FastAPI, CrewAI, LangChain, Scikit-learn, Docker
-
-**[FormatGuard](https://github.com/balaj-mir/FormateGuide)** — Academic Formatting Compliance Platform
-
-* Deep XML-level inspection of `.docx` files, validated against institutional rulesets like APA, IEEE and HEC Pakistan
-* Tracked-changes auto-correction engine that rewrites XML formatting in place, running on an async Celery/Redis pipeline with multi-tier role-based access
-
-**Stack:** Next.js 16, FastAPI (Python 3.12), PostgreSQL, Celery, Redis, Docker, Supabase
-
-**[EventHive](https://github.com/balaj-mir/EventHive)** — Enterprise Event Booking & Ticketing Platform
-
-* Real-time booking and check-in system using atomic MongoDB transactions so overselling can't happen, even under concurrent checkout load
-* Tamper-proof JWT-signed QR ticketing with idempotent check-in locking and Stripe webhook payment reconciliation
-
-**Stack:** Next.js 14, TypeScript, Node.js/Express, MongoDB, Stripe, JWT, html5-qrcode
-
-**[TasqOn](https://github.com/balaj-mir/TasqOn)** — Team & Workload Management Platform
-
-* Built for organizations that need to monitor team performance in real time
-* Modules for evidence tracking and anomaly detection, catching fake progress reports, speed anomalies, and idle team members
-
-**Stack:** Next.js 19, Tailwind v4, shadcn/Radix UI, Framer Motion, Recharts, Node.js/Express, Prisma, SQLite, Socket.io, JWT
-
-**[Pharma-chain-tracker](https://github.com/balaj-mir/Pharma-chain-tracker)** — Blockchain Supply Chain Authenticity Tracker
-
-* Ethereum DApp that lets you scan a QR code to detect counterfeit pharmaceuticals along the supply chain
-
-**Stack:** Solidity, React, Python/Flask, Hardhat
-
-**EduTrack Lite** — Course Platform with an AI At-Risk-Student Classifier
-
-* Logistic Regression model trained on the OULAD dataset to flag students who might need extra support before they fall behind
-
-**Stack:** Next.js, TypeScript, Tailwind, Node/Express, MongoDB, FastAPI, Scikit-learn
-
-**ChatSphere** — Real-Time Community Chat App
-
-* Discord/Slack-style chat app with room-scoped broadcasting, multi-device presence tracking, and cursor-based pagination for message history
-
-**Stack:** Next.js, Node.js, Socket.IO, MongoDB, TypeScript
+| Project | Description | Stack |
+|---|---|---|
+| **[BidEngine](https://github.com/balaj-mir/BidEngine)** | 5-agent CrewAI pipeline automating the RFP response workflow end to end — extraction, compliance scoring, capability matching, drafting, and win-probability prediction via a hybrid RAG matcher and a Scikit-learn model trained on 120 historical bid records. Built at CUST Hackathon 2026. | Next.js 15, React 19, TypeScript, FastAPI, CrewAI, LangChain, Scikit-learn, Docker |
+| **[FormatGuard](https://github.com/balaj-mir/FormateGuide)** | Deep XML-level inspection of `.docx` files against institutional rulesets (APA, IEEE, HEC Pakistan), with a tracked-changes auto-correction engine that rewrites formatting in place on an async Celery/Redis pipeline. | Next.js 16, FastAPI (Python 3.12), PostgreSQL, Celery, Redis, Docker, Supabase |
+| **[EventHive](https://github.com/balaj-mir/EventHive)** | Real-time event booking and check-in platform using atomic MongoDB transactions to prevent overselling, with tamper-proof JWT-signed QR ticketing and Stripe webhook reconciliation. | Next.js 14, TypeScript, Node.js/Express, MongoDB, Stripe, JWT, html5-qrcode |
+| **[TasqOn](https://github.com/balaj-mir/TasqOn)** | Team and workload management platform with real-time anomaly detection — flags fake progress reports, speed anomalies, and idle team members. | Next.js 19, Tailwind v4, shadcn/Radix UI, Framer Motion, Recharts, Node.js/Express, Prisma, SQLite, Socket.io, JWT |
+| **[Pharma-chain-tracker](https://github.com/balaj-mir/Pharma-chain-tracker)** | Ethereum DApp for detecting counterfeit pharmaceuticals along the supply chain via QR scan. | Solidity, React, Python/Flask, Hardhat |
+| **EduTrack Lite** | Course platform with a Logistic Regression classifier trained on the OULAD dataset to flag at-risk students. | Next.js, TypeScript, Tailwind, Node/Express, MongoDB, FastAPI, Scikit-learn |
+| **ChatSphere** | Discord/Slack-style real-time chat app with room-scoped broadcasting, multi-device presence tracking, and cursor-based pagination. | Next.js, Node.js, Socket.IO, MongoDB, TypeScript |
 
 ---
 
